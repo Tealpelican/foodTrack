@@ -1,0 +1,26 @@
+basic layout of page
+
+7 days of the week on top, split into 4 sections per day: breakfast, lunch, dinner, snacks
+each card has day (maybe date) as the title in a rounded box (like a playing card)
+below the cards is a few buttons for doing things like
+- search for meal -> select type, then all meals populate a list below -> drag and drop (or +/- from a card, +/- brings up new dialog to select the day card)
+- randomize full week, randomize day
+- create a meal -> brings up a new card with meal name like the day cards -> it has a + button at the bottom, each time this is pressed a sdet of ingredient cards come up
+-- you then select through the cards until you get your ingredient then you click it to add
+
+basic MVP
+ingredients, meals, planner
+no creation or randomizing for initial run
+
+step 1
+create a card object which has a title (name, cals)
+look like this
+--------------------
+[MealName    0 cals]
+[------------------]
+[Ingredient1 x cals]
+[Ingredient2 x cals]
+--------------------
+
+
+https://www.linkedin.com/pulse/how-create-product-cards-using-html-css-deesan-tutorials
